@@ -7,8 +7,6 @@ int main()
     std::string texte = "Toto, Tata";
     // change les minuscules par des majuscules et réciproquement
     //modification
-
-
     for (char & c : texte)
     {
         if (std::islower(c))
